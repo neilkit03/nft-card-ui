@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: hsl(217, 54%, 11%);
+}
+
+article {
+  position: relative;
+  width: 600px;
+  height: 1000px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 100px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 40px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  padding-top: 40px;
+}
+
+.image_description {
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 10;
+  color: hsl(0, 0%, 100%);
+  padding-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 500px;
+  line-height: 1.6;
+}
+
+.ether {
+  padding-top: 5px;
+  display: flex;
+}
+
+.eth {
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  color: aqua;
+  display: flex;
+  width: 20px;
+  margin-right: 400px;
+  margin-top: 20px;
+}
+
+#etherium {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.days {
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  margin-top: 25px;
+}
+
+#clock {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+  margin-top: 20px;
+}
+
+#paa {
+  padding-top: 30px;
+  display: flex;
+}
+
+#avatar {
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 50px;
+}
+
+span {
+  color: aqua;
+}
+
+#creation {
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  margin-top: 17px;
+  padding-left: 25px;
+}
